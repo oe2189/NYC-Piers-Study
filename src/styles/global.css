@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('/fonts/BAHNSCHRIFT.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +13,23 @@
 :root {
   --bg-color: rgba(255, 255, 255, 0.9); /* Light mode */
   --text-color: #333; /* Darker text for light mode */
+}
+
+body {
+  font-family: 'Bahnschrift', sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5; /* Equivalent to bg-stone-100 */
+  color: rgba(0, 0, 0, 0.5); /* Equivalent to text-black/50 */
+  -webkit-font-smoothing: antialiased; /* Equivalent to antialiased */
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5 {
+  font-family: 'Bahnschrift', sans-serif; /* Optional for headings */
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  line-height: initial;
 }
 
 /* Dark mode */
