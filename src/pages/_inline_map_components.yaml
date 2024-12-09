@@ -1,10 +1,18 @@
 blocks:
   - type: "content"
     content:
+      - img:
+        - src: "./img/Title.png"
+          alt: "Title Image"
+          style: "width: 100%; display: block; margin: 0 auto;"
+  
+  - type: "content"
+    content:
       - h1:
         - str: "Example page with inline maps from a yaml file"
       - p: 
         - str: "An example of an interactive map"
+
 
   - type: "map"
     content:
@@ -58,6 +66,30 @@ blocks:
   - type: "content"
     content:
       - p: 
+        - str: "... and a static map from an image you have composed." 
+      - p: 
+        - str: "To add static images from a jpg or png file save the image in the public/img folder and use the syntax below"
+      - img:
+        - src: "./img/PierTypes.png"
+          alt: "image description"
+
+  - type: "content"
+    content:
+      - h2: 
+        - str: "Maritime Traffic in NYC"
+      - iframe:
+        - src: <iframe width='100%' height='600px' src="https://oe2189.github.io/CargoPiers/" title="Sample Style" style="border:none;"></iframe>
+
+  - type: "content"
+    content:
+      - h2: 
+        - str: "Tracing the Scars of Former Piers"
+      - iframe:
+        - src: <iframe width='100%' height='600px' src="https://oe2189.github.io/demolished-manhattan-piers-map/" title="Sample Style" style="border:none;"></iframe>
+
+  - type: "content"
+    content:
+      - p: 
         - str: "... and below is a static map. Note that the container ID must be unique (in the example below it is maplibremap2)."
 
   - type: "map"
@@ -77,7 +109,17 @@ blocks:
       - p: 
         - str: "To add static images from a jpg or png file save the image in the public/img folder and use the syntax below"
       - img:
-        - src: "./img/fisk02.jpg"
+        - src: "./img/PierBikeLanes.png"
+          alt: "image description"
+
+  - type: "content"
+    content:
+      - p: 
+        - str: "... and a static map from an image you have composed." 
+      - p: 
+        - str: "To add static images from a jpg or png file save the image in the public/img folder and use the syntax below"
+      - img:
+        - src: "./img/SummerMorningRush.jpg"
           alt: "image description"
 
   - type: "content"
