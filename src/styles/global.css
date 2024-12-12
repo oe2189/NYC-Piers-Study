@@ -24,6 +24,7 @@ body {
   -webkit-font-smoothing: antialiased; /* Equivalent to antialiased */
 }
 
+
 /* Heading styles */
 h1, h2, h3, h4, h5 {
   font-family: 'Bahnschrift', sans-serif; /* Optional for headings */
@@ -118,32 +119,37 @@ h5 {
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 	line-height: initial;
-	font-family: "Inter", normal;
+	font-family: "Bahnschrift", sans-serif;
 }
 
 h1 {
 	font-size: 2em;
 	font-weight: 700;
+  font-family: "Bahnschrift", sans-serif;
 }
 
 h2 {
 	font-size: 1.75em;
 	font-weight: 500;
+  font-family: "Bahnschrift", sans-serif;
 }
 
 h3 {
 	font-size: 1.5em;
 	font-weight: 400;
+  font-family: "Bahnschrift", sans-serif;
 }
 
 h4 {
 	/* font-size: 1.5em; */
 	font-weight: bold;
+  font-family: "Bahnschrift", sans-serif;
 }
 
 h5 {
 	/* font-size: 1.5em; */
 	font-weight: 700;
+  font-family: "Bahnschrift", sans-serif;
 }
 
 .maplibre-inline {
