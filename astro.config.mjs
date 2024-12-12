@@ -6,6 +6,6 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   site: "https://oe2189.github.io",
-  base: "astro-maplibre-template",
+  base: "NYC-Piers-Study",
   integrations: [mdx(), sitemap(), tailwind()],
 });
