@@ -14,7 +14,7 @@ blocks:
   - type: "content"
     content:
       - img:
-        - src: "/NYC-Piers-Study/public/img/PierTypes.png"
+        - src: "./img/PierTypes.png"
           alt: "image description"
 
   - type: "content"
